@@ -35,7 +35,7 @@ def turn(board)
   end
 end
 
-def play(board, current_player = "X")
+def play(board)
   count = 0
   while count ==9
     turn(board)
